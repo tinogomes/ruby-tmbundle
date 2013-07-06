@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:require "${2:debugger}"; }debugger; true$0</string>
+	<string>${1:require '${2:debugger}'; }debugger; true$0</string>
 	<key>name</key>
 	<string>debug</string>
 	<key>scope</key>
