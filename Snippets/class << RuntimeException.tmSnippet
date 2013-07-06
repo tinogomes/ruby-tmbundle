@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>class &lt;&lt; ${1:RuntimeException}; end</string>
+	<string>class ${1:$TM_SELECTED_TEXT} &lt; ${2:RuntimeError}; end</string>
 	<key>name</key>
-	<string>class &lt;&lt; RuntimeException</string>
+	<string>class &lt; RuntimeException</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
