@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>task ${1::name} do
+	<string>task :${1:default}${2: =&gt; [:${3:environment}]} do
 	$0
 end</string>
 	<key>name</key>

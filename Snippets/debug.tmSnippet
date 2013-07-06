@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>map { |${1:e}| ${2:$1.}$0 }</string>
+	<string>${1:require "${2:debugger}"; }debugger; true$0</string>
 	<key>name</key>
-	<string>map { |e| .. }</string>
+	<string>debug</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>map</string>
+	<string>debug</string>
 	<key>uuid</key>
-	<string>5A3754FC-43A3-462B-AB42-E3E951872E6F</string>
+	<string>C5318639-30D2-42AE-8F88-0D34DE46B168</string>
 </dict>
 </plist>

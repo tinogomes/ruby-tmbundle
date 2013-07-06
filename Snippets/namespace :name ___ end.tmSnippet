@@ -3,10 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>namespace ${1::name} do
-
+	<string>namespace :${1:name} do
 	$0
-
 end</string>
 	<key>name</key>
 	<string>namespace :name ... end</string>

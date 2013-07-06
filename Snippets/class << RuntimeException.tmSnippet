@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string># encoding: utf-8$0</string>
+	<string>class &lt;&lt; ${1:RuntimeException}; end</string>
 	<key>name</key>
-	<string># encoding</string>
+	<string>class &lt;&lt; RuntimeException</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
-	<string>enc</string>
+	<string>cla</string>
 	<key>uuid</key>
-	<string>D22A7FC0-D6F7-4796-BDCA-0E6DD7D10C49</string>
+	<string>CA4ED907-1DDB-47AE-9498-0DF2F8CE4D2B</string>
 </dict>
 </plist>
