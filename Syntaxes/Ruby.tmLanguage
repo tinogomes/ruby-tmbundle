@@ -251,7 +251,7 @@
 			<key>comment</key>
 			<string> everything being a method but having a special function is a..</string>
 			<key>match</key>
-			<string>\b(initialize|new|loop|include|extend|raise|attr_reader|attr_writer|attr_accessor|attr|catch|throw|module_function|private|protected|public)\b(?![?!])</string>
+			<string>\b(initialize|new|loop|include|extend|raise|attr_reader|attr_writer|attr_accessor|attr|catch|throw)\b(?![?!])</string>
 			<key>name</key>
 			<string>keyword.other.special-method.ruby</string>
 		</dict>
@@ -259,7 +259,7 @@
 			<key>comment</key>
 			<string>highlight annotation words</string>
 			<key>match</key>
-			<string>^[\s]*?\b(private|protected|public)\b[\s]*$\n</string>
+			<string>^[\s]*?\b(module_function|private|protected|public)\b[\s#]*$\n</string>
 			<key>name</key>
 			<string>keyword.other.annotation.ruby</string>
 		</dict>
