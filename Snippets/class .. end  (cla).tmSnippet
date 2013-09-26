@@ -4,10 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>class ${1:`#!/usr/bin/env ruby
-    require 'rubygems'
-    require "active_support"
-    require 'active_support/core_ext/string'
-    puts (ENV['TM_FILENAME'] || 'some_model.rb').gsub(/\.rb$/, '').camelize.singularize
+    puts (ENV['TM_FILENAME'] || 'class_name.rb').gsub(/\.rb$/,'').gsub(/[_-]/, ' ').split(' ').map(&amp;:capitalize).join('')
 	`}
 	$0
 end</string>
